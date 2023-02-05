@@ -14,7 +14,6 @@ def _getch():
         termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
     return ch
 def getch():
-
    
     return _getch()
 def getchmul(n):
